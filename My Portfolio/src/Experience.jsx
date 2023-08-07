@@ -1,19 +1,19 @@
 import {
   PresentationControls,
   Float,
-  Environment,
   useGLTF,
   Html,
   Text,
   ContactShadows,
 } from "@react-three/drei";
+import createjs from "preload-js";
 
 export default function Experience() {
+  
   const computer = useGLTF("./model.gltf");
 
   return (
     <>
-      <Environment preset="city" />
       <color args={["#040e13"]} attach="background" />
 
       <PresentationControls
