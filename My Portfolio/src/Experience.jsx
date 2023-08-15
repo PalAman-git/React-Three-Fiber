@@ -61,7 +61,7 @@ export default function Experience() {
                 rotation-y={-1.25}
                 maxWidth={2}
                 textAlign="center"
-            >AJAY KUMAR</Text>
+            >AMAN PAL</Text>
         </Float>
       </PresentationControls>
 
