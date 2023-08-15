@@ -6,7 +6,6 @@ import {
   Text,
   ContactShadows,
 } from "@react-three/drei";
-import createjs from "preload-js";
 
 export default function Experience() {
   
